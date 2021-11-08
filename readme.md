@@ -20,3 +20,11 @@ Nota: Instalar desde este link https://cloudaffaire.com/how-to-install-git-in-aw
 
 node index.js
 
+# Install nginx
+sudo amazon-linux-extras install -y nginx1
+
+# Ver archivo nginx.conf
+cat /etc/nginx/nginx.conf
+
+# Chequear nginx
+nginx -t
