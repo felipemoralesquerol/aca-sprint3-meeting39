@@ -1,0 +1,30 @@
+{
+  "name": "aca-sprint3-meeting38",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para subir a AWS EC2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemoralesquerol/aca-sprint3-meeting38.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "express",
+    "nodejs"
+  ],
+  "author": "Felipe Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemoralesquerol/aca-sprint3-meeting39/issues"
+  },
+  "homepage": "https://github.com/felipemoralesquerol/aca-sprint3-meeting39#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
