@@ -1,6 +1,8 @@
 .env
-!.env.example
+
 
 node_modules
 *.pem
 *.sh
+
+!.env.example
