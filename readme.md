@@ -28,3 +28,6 @@ cat /etc/nginx/nginx.conf
 
 # Chequear nginx
 nginx -t
+
+# Recargar nginx
+sudo nginx -s reload 
