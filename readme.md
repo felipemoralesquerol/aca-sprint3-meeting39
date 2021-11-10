@@ -32,11 +32,11 @@ nginx -t
 # Recargar nginx
 sudo nginx -s reload 
 
+# Qué hacer si no puedo reinicar nginx
 https://stackoverflow.com/questions/51402373/i-cant-restart-my-nginx
 
-# FMO 08/11/2021 agregado
-    gzip on;
-    gzip_disable "MSIE [1-6]\.(?!.*SV1)";
-    gzip_vary on;
-    gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon application/javascript application/x-javascript;
-    # FMO Fin
+# Agregar compresión de archivos a nginx
+gzip on;
+gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+gzip_vary on;
+gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon application/javascript application/x-javascript;
