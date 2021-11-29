@@ -11,11 +11,11 @@ const app = express()
 app.use(morgan('dev'));
 
 app.get('/', function (req, res) {
-    res.send('Esta es información obtenidad desde tu API')
+    res.send('Esta es información obtenidad desde tu API - Meeting 39')
 })
 
 app.get('/version', function (req, res) {
-    res.send('API v1.0')
+    res.send('API v1.0 - M39')
 })
 
 app.listen(port, () => {
